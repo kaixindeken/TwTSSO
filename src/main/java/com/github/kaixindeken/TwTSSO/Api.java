@@ -4,7 +4,6 @@ import com.github.kaixindeken.TwTSSO.curl.CurlFactory;
 import com.github.kaixindeken.TwTSSO.curl.CurlLib;
 import com.github.kaixindeken.TwTSSO.curl.Pointer;
 import com.github.kaixindeken.TwTSSO.standard.*;
-import com.github.kaixindeken.TwTSSO.curl.*;
 import net.minidev.json.JSONObject;
 
 import java.util.Map;
