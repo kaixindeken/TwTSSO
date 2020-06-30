@@ -1,25 +1,24 @@
 package com.github.kaixindeken.TwTSSO.standard;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+
+import java.nio.charset.StandardCharsets;
 import java.util.Iterator;
 import java.util.Map;
 
 public class HttpBuildQuery {
 
-    public static String http_build_query(Map<String,Object> array){
-        String reString = null;
-        //遍历数组形成akey=avalue&bkey=bvalue&ckey=cvalue形式的的字符串
-        Iterator it = array.entrySet().iterator();
-        while (it.hasNext()){
-            Map.Entry<String,Object> entry =(Map.Entry) it.next();
-            String key = entry.getKey();
-            Object value = entry.getValue();
-            reString += key+"="+value+"&";
+    public static String http_build_query(Map<String,Object> array) throws JsonProcessingException {
+        StringBuilder sb = new StringBuilder();;
+        for (Map.Entry<String,Object> entry: array.entrySet()) {
+            sb.append(entry.getKey());
+            sb.append("=");
+            sb.append(entry.getValue());
+            sb.append("&");
         }
-        reString = reString.substring(0, reString.length()-1);
-        //将得到的字符串进行处理得到目标格式的字符串
-        reString = java.net.URLEncoder.encode(reString);
-        reString = reString.replace("%3D", "=").replace("%26", "&");
-        return reString;
+        sb.deleteCharAt(sb.length()-1);
+        String res = sb.toString();
+        res = JSONEncoder.json_encode(res);
+        return res;
     }
-
 }
