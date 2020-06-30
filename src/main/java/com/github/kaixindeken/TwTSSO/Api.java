@@ -1,5 +1,6 @@
 package com.github.kaixindeken.TwTSSO;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.github.kaixindeken.TwTSSO.curl.CurlFactory;
 import com.github.kaixindeken.TwTSSO.curl.CurlLib;
 import com.github.kaixindeken.TwTSSO.curl.Pointer;
@@ -82,7 +83,7 @@ public class Api {
         return (JSONObject) curl.curl_exec(ch);
     }
 
-    private JSONObject _request(String url, Map<String, Object> postData){
+    private JSONObject _request(String url, Map<String, Object> postData) throws JsonProcessingException {
         CurlLib curl = CurlFactory.getInstance();
         Pointer ch = curl.curl_init();
         curl.curl_setopt(ch, CURLOPT_URL, url);
