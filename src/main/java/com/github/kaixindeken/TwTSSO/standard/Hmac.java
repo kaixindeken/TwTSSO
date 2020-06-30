@@ -17,7 +17,7 @@ public class Hmac {
 
     private static String Byte2Hex(byte[] b){
         StringBuilder hs = new StringBuilder();
-        String stmp = "";
+        String stmp;
         for (byte value : b) {
             // 以十六进制（基数 16）无符号整数形式返回一个整数参数的字符串表示形式。
             stmp = (Integer.toHexString(value & 0xFF));

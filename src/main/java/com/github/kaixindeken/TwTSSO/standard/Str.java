@@ -4,7 +4,7 @@ public class Str {
 
     public static String strtr(String data, String from, String to){
         char[] f = from.toCharArray();
-        char[] t = from.toCharArray();
+        char[] t = to.toCharArray();
 
         for (int i = 0; i < f.length; i++) {
             data = data.replace(f[i],t[i]);
