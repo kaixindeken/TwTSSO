@@ -1,0 +1,84 @@
+/usr/lib/jvm/jdk-11.0.7/bin/javadoc
+@options
+@packages
+-classpath
+'/home/ken/.m2/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar:/home/ken/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/ken/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/ken/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/ken/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:/home/ken/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/home/ken/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:/home/ken/.m2/repository/org/apache/httpcomponents/httpmime/4.5/httpmime-4.5.jar:/home/ken/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/ken/.m2/repository/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar:/home/ken/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/home/ken/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/home/ken/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/home/ken/IdeaProjects/TwTSSO/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2020. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/ken/IdeaProjects/TwTSSO/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'com.github.kaixindeken:TwTSSO 0.1 API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/home/ken/IdeaProjects/TwTSSO/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'com.github.kaixindeken:TwTSSO 0.1 API'
+com.github.kaixindeken.TwTSSO
+com.github.kaixindeken.TwTSSO.curl.impl
+com.github.kaixindeken.TwTSSO.curl.impl
+com.github.kaixindeken.TwTSSO.curl.impl
+com.github.kaixindeken.TwTSSO.curl.impl
+com.github.kaixindeken.TwTSSO.curl
+com.github.kaixindeken.TwTSSO.curl
+com.github.kaixindeken.TwTSSO.curl
+com.github.kaixindeken.TwTSSO.curl
+com.github.kaixindeken.TwTSSO.curl
+com.github.kaixindeken.TwTSSO.curl
+com.github.kaixindeken.TwTSSO.curl
+com.github.kaixindeken.TwTSSO.curl
+com.github.kaixindeken.TwTSSO.curl
+com.github.kaixindeken.TwTSSO.curl
+com.github.kaixindeken.TwTSSO.curl
+com.github.kaixindeken.TwTSSO.curl
+com.github.kaixindeken.TwTSSO.curl
+com.github.kaixindeken.TwTSSO.standard
+com.github.kaixindeken.TwTSSO.standard
+com.github.kaixindeken.TwTSSO.standard
+com.github.kaixindeken.TwTSSO.standard
+com.github.kaixindeken.TwTSSO.standard
+/home/ken/.m2/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar = 1592467516671
+/home/ken/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar = 1592467516823
+/home/ken/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar = 1593400500042
+/home/ken/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar = 1592467497039
+/home/ken/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar = 1592467470491
+/home/ken/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar = 1592467481647
+/home/ken/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar = 1592467481363
+/home/ken/.m2/repository/org/apache/httpcomponents/httpmime/4.5/httpmime-4.5.jar = 1593169362332
+/home/ken/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar = 1592467484535
+/home/ken/.m2/repository/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar = 1592467516943
+/home/ken/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar = 1592467484327
+/home/ken/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar = 1592467484175
+/home/ken/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar = 1592467484267
+/home/ken/IdeaProjects/TwTSSO/src/main/java = 1593428780750
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/member-search-index.js = 1593504561320
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/help-doc.html = 1593504561348
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/index.html = 1593504561344
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/type-search-index.js = 1593504561320
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/overview-summary.html = 1593504561344
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/constant-values.html = 1593504561148
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/stylesheet.css = 1593504561348
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/search.js = 1593504561348
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/allclasses.html = 1593504561340
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/element-list = 1593504561072
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/deprecated-list.html = 1593504561340
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/package-search-index.zip = 1593504561320
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/allclasses-index.html = 1593504561332
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/index-all.html = 1593504561328
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/script.js = 1593504561348
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/package-search-index.js = 1593504561316
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/overview-tree.html = 1593504561268
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/type-search-index.zip = 1593504561320
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/member-search-index.zip = 1593504561320
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/allpackages-index.html = 1593504561336
