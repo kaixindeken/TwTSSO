@@ -1,4 +1,3 @@
-com.github.kaixindeken.TwTSSO
-com.github.kaixindeken.TwTSSO.curl
-com.github.kaixindeken.TwTSSO.curl.impl
-com.github.kaixindeken.TwTSSO.standard
+cn.edu.twt.TwTSSO
+cn.edu.twt.TwTSSO.https
+cn.edu.twt.TwTSSO.standard

@@ -2,7 +2,7 @@
 @options
 @packages
 -classpath
-'/home/ken/.m2/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar:/home/ken/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/ken/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/ken/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/ken/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:/home/ken/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/home/ken/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:/home/ken/.m2/repository/org/apache/httpcomponents/httpmime/4.5/httpmime-4.5.jar:/home/ken/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/ken/.m2/repository/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar:/home/ken/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/home/ken/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/home/ken/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar'
+'/home/ken/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:/home/ken/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/home/ken/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:/home/ken/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/ken/.m2/repository/com/alibaba/fastjson/1.2.72/fastjson-1.2.72.jar'
 -encoding
 'UTF-8'
 -protected
@@ -18,67 +18,44 @@
 -docencoding
 'UTF-8'
 -doctitle
-'com.github.kaixindeken:TwTSSO 0.1 API'
+'cn.edu.twt:TwTSSO 0.2 API'
 -linkoffline
 'https://docs.oracle.com/en/java/javase/11/docs/api' '/home/ken/IdeaProjects/TwTSSO/target/javadoc-bundle-options'
 -use
 -version
 -windowtitle
-'com.github.kaixindeken:TwTSSO 0.1 API'
-com.github.kaixindeken.TwTSSO
-com.github.kaixindeken.TwTSSO.curl.impl
-com.github.kaixindeken.TwTSSO.curl.impl
-com.github.kaixindeken.TwTSSO.curl.impl
-com.github.kaixindeken.TwTSSO.curl.impl
-com.github.kaixindeken.TwTSSO.curl
-com.github.kaixindeken.TwTSSO.curl
-com.github.kaixindeken.TwTSSO.curl
-com.github.kaixindeken.TwTSSO.curl
-com.github.kaixindeken.TwTSSO.curl
-com.github.kaixindeken.TwTSSO.curl
-com.github.kaixindeken.TwTSSO.curl
-com.github.kaixindeken.TwTSSO.curl
-com.github.kaixindeken.TwTSSO.curl
-com.github.kaixindeken.TwTSSO.curl
-com.github.kaixindeken.TwTSSO.curl
-com.github.kaixindeken.TwTSSO.curl
-com.github.kaixindeken.TwTSSO.curl
-com.github.kaixindeken.TwTSSO.standard
-com.github.kaixindeken.TwTSSO.standard
-com.github.kaixindeken.TwTSSO.standard
-com.github.kaixindeken.TwTSSO.standard
-com.github.kaixindeken.TwTSSO.standard
-/home/ken/.m2/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar = 1592467516671
-/home/ken/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar = 1592467516823
-/home/ken/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar = 1593400500042
-/home/ken/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar = 1592467497039
+'cn.edu.twt:TwTSSO 0.2 API'
+cn.edu.twt.TwTSSO.https
+cn.edu.twt.TwTSSO.https
+cn.edu.twt.TwTSSO
+cn.edu.twt.TwTSSO.standard
+cn.edu.twt.TwTSSO.standard
+cn.edu.twt.TwTSSO.standard
+cn.edu.twt.TwTSSO.standard
+cn.edu.twt.TwTSSO.standard
 /home/ken/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar = 1592467470491
 /home/ken/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar = 1592467481647
 /home/ken/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar = 1592467481363
-/home/ken/.m2/repository/org/apache/httpcomponents/httpmime/4.5/httpmime-4.5.jar = 1593169362332
 /home/ken/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar = 1592467484535
-/home/ken/.m2/repository/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar = 1592467516943
-/home/ken/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar = 1592467484327
-/home/ken/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar = 1592467484175
-/home/ken/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar = 1592467484267
-/home/ken/IdeaProjects/TwTSSO/src/main/java = 1593428780750
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/member-search-index.js = 1593508782089
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/help-doc.html = 1593508782113
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/index.html = 1593508782109
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/type-search-index.js = 1593508782085
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/overview-summary.html = 1593508782109
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/constant-values.html = 1593508781937
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/stylesheet.css = 1593508782113
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/search.js = 1593508782113
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/allclasses.html = 1593508782105
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/element-list = 1593508781893
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/deprecated-list.html = 1593508782105
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/package-search-index.zip = 1593508782085
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/allclasses-index.html = 1593508782097
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/index-all.html = 1593508782093
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/script.js = 1593508782113
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/package-search-index.js = 1593508782085
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/overview-tree.html = 1593508782029
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/type-search-index.zip = 1593508782085
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/member-search-index.zip = 1593508782089
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/allpackages-index.html = 1593508782101
+/home/ken/.m2/repository/com/alibaba/fastjson/1.2.72/fastjson-1.2.72.jar = 1594043596741
+/home/ken/IdeaProjects/TwTSSO/src/main/java = 1594043401987
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/member-search-index.js = 1594043972287
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/help-doc.html = 1594043972315
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/index.html = 1594043972311
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/type-search-index.js = 1594043972287
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/overview-summary.html = 1594043972311
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/constant-values.html = 1594043972227
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/stylesheet.css = 1594043972315
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/search.js = 1594043972319
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/allclasses.html = 1594043972303
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/element-list = 1594043972195
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/deprecated-list.html = 1594043972303
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/package-search-index.zip = 1594043972287
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/allclasses-index.html = 1594043972295
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/index-all.html = 1594043972287
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/script.js = 1594043972319
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/package-search-index.js = 1594043972283
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/overview-tree.html = 1594043972267
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/type-search-index.zip = 1594043972287
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/member-search-index.zip = 1594043972287
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/allpackages-index.html = 1594043972295
