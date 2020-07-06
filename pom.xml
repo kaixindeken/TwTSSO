@@ -10,6 +10,9 @@
     <packaging>jar</packaging>
     <name>${project.groupId}:${project.artifactId}</name>
     <url>https://github.com/kaixindeken/TwTSSO</url>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
     <description>TwT SSO Api for maven</description>
 
