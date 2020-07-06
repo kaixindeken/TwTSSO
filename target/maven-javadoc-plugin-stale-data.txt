@@ -18,44 +18,44 @@
 -docencoding
 'UTF-8'
 -doctitle
-'cn.edu.twt:TwTSSO 0.2 API'
+'io.github.kaixindeken:TwTSSO 0.2 API'
 -linkoffline
 'https://docs.oracle.com/en/java/javase/11/docs/api' '/home/ken/IdeaProjects/TwTSSO/target/javadoc-bundle-options'
 -use
 -version
 -windowtitle
-'cn.edu.twt:TwTSSO 0.2 API'
-cn.edu.twt.TwTSSO.https
-cn.edu.twt.TwTSSO.https
-cn.edu.twt.TwTSSO
-cn.edu.twt.TwTSSO.standard
-cn.edu.twt.TwTSSO.standard
-cn.edu.twt.TwTSSO.standard
-cn.edu.twt.TwTSSO.standard
-cn.edu.twt.TwTSSO.standard
+'io.github.kaixindeken:TwTSSO 0.2 API'
+io.github.kaixindeken.TwTSSO.https
+io.github.kaixindeken.TwTSSO.https
+io.github.kaixindeken.TwTSSO
+io.github.kaixindeken.TwTSSO.standard
+io.github.kaixindeken.TwTSSO.standard
+io.github.kaixindeken.TwTSSO.standard
+io.github.kaixindeken.TwTSSO.standard
+io.github.kaixindeken.TwTSSO.standard
 /home/ken/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar = 1592467470491
 /home/ken/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar = 1592467481647
 /home/ken/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar = 1592467481363
 /home/ken/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar = 1592467484535
 /home/ken/.m2/repository/com/alibaba/fastjson/1.2.72/fastjson-1.2.72.jar = 1594043596741
-/home/ken/IdeaProjects/TwTSSO/src/main/java = 1594043401987
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/member-search-index.js = 1594043972287
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/help-doc.html = 1594043972315
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/index.html = 1594043972311
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/type-search-index.js = 1594043972287
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/overview-summary.html = 1594043972311
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/constant-values.html = 1594043972227
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/stylesheet.css = 1594043972315
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/search.js = 1594043972319
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/allclasses.html = 1594043972303
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/element-list = 1594043972195
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/deprecated-list.html = 1594043972303
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/package-search-index.zip = 1594043972287
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/allclasses-index.html = 1594043972295
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/index-all.html = 1594043972287
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/script.js = 1594043972319
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/package-search-index.js = 1594043972283
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/overview-tree.html = 1594043972267
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/type-search-index.zip = 1594043972287
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/member-search-index.zip = 1594043972287
-/home/ken/IdeaProjects/TwTSSO/target/apidocs/allpackages-index.html = 1594043972295
+/home/ken/IdeaProjects/TwTSSO/src/main/java = 1594056914020
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/member-search-index.js = 1594056969230
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/help-doc.html = 1594056969258
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/index.html = 1594056969254
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/type-search-index.js = 1594056969230
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/overview-summary.html = 1594056969254
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/constant-values.html = 1594056969174
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/stylesheet.css = 1594056969258
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/search.js = 1594056969262
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/allclasses.html = 1594056969250
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/element-list = 1594056969150
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/deprecated-list.html = 1594056969250
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/package-search-index.zip = 1594056969230
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/allclasses-index.html = 1594056969238
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/index-all.html = 1594056969234
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/script.js = 1594056969262
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/package-search-index.js = 1594056969226
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/overview-tree.html = 1594056969210
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/type-search-index.zip = 1594056969230
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/member-search-index.zip = 1594056969230
+/home/ken/IdeaProjects/TwTSSO/target/apidocs/allpackages-index.html = 1594056969242

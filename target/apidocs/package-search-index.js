@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"cn.edu.twt.TwTSSO","h":"","u":""},{"l":"cn.edu.twt.TwTSSO.https","h":"","u":""},{"l":"cn.edu.twt.TwTSSO.standard","h":"","u":""},{"l":"所有程序包","h":"","u":"allpackages-index.html"}]
+packageSearchIndex = [{"l":"io.github.kaixindeken.TwTSSO","h":"","u":""},{"l":"io.github.kaixindeken.TwTSSO.https","h":"","u":""},{"l":"io.github.kaixindeken.TwTSSO.standard","h":"","u":""},{"l":"所有程序包","h":"","u":"allpackages-index.html"}]
