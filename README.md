@@ -47,14 +47,14 @@
   
       //这里需要声明一个需要返回的页面,单点登陆会跳转到另一个网站(登陆页面),而这个页面被所有项目共用,在那个页面用户点击登陆后,之所以会返回这个项目,而不是其他的项目,就是这个$link的作用
       //这个$link会在用户点击登陆成功后访问,会携带一个token,这个token用于获得登录用户的信息
-      //$link = "http://127.0.0.1:8080/api/ssoLogin";
+      //如String link = "http://127.0.0.1:8080/api/ssoLogin";
       //getLoginUrl 会返回一个跳转到单点登陆页面连接的url
       @ResponseBody
       @RequestMapping(value = "/api/login", method = RequestMethod.GET)
       public static void login(HttpServletResponse response) throws Exception {
           sso = getSSO();
   
-          String link = "http://127.0.0.1:8080/api/ssoLogin";
+          String link = "";
   
           String login_url = sso.getLoginUrl(link);
           response.sendRedirect(login_url);
