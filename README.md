@@ -11,13 +11,13 @@
 
 ## 3、依赖引入以及使用
 * 依赖引入(注意版本号)
-```xml
-<dependency>
-    <groupId>io.github.kaixindeken</groupId>
-    <artifactId>TwTSSO</artifactId>
-    <version>0.2</version>
-</dependency>
-```
+  ```xml
+  <dependency>
+      <groupId>io.github.kaixindeken</groupId>
+      <artifactId>TwTSSO</artifactId>
+      <version>0.2</version>
+  </dependency>
+  ```
 * 使用说明（以 `SpringBoot` 框架为例 ）
 
   `LoginController`
