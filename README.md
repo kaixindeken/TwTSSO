@@ -23,16 +23,6 @@
   `LoginController`
 
   ```java
-  package com.example.ssotest.controllers;
-  
-  import com.example.ssotest.services.Result;
-  import com.example.ssotest.services.ResultGenerator;
-  import io.github.kaixindeken.TwTSSO.Api;
-  import org.springframework.web.bind.annotation.*;
-  
-  import javax.servlet.http.HttpServletRequest;
-  import javax.servlet.http.HttpServletResponse;
-  
   @RestController
   class LoginController {
   
@@ -63,7 +53,7 @@
       //通过fetchUserInfo获取用户信息
       @ResponseBody
       @RequestMapping(value = "/api/ssoLogin", method = RequestMethod.GET)
-      public static Object ssoLogin(@RequestParam String token,HttpServletRequest request, HttpServletResponse response) throws Exception {
+      public static JSONObject ssoLogin(@RequestParam String token,HttpServletRequest request, HttpServletResponse response) throws Exception {
           return sso.fetchUserInfo(token);
       }
   }
