@@ -56,7 +56,6 @@ public class Api {
         String query = "app_id=" + this.appid
                 + "&time=" + System.currentTimeMillis()/1000
                 + "&source=" + trans4;
-        System.out.println("source: "+trans4);
         return query + "&sign=" + Hmac.hash_hmac("sha1",query,appkey);
     }
 
