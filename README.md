@@ -1,8 +1,8 @@
 # 天外天单点登陆`Api`（适用于`java`）
 
 ## 1、使用依赖安装
-~~目前因为网络原因无法对该项目进行在 `maven` 中央仓库的部署~~
-以部署到 `maven` 中央仓库
+* ~~目前因为网络原因无法对该项目进行在 `maven` 中央仓库的部署~~
+* 已部署到 `maven` 中央仓库
 ```xml
   <dependency>
       <groupId>io.github.kaixindeken</groupId>
