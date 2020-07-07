@@ -1,6 +1,9 @@
-# 天外天单点登陆`Api`（适用于`java`）
+# 适用于 `java` 的天外天单点登陆 `Api` 
+
+（安装时请注意版本）
 
 ## 1、使用依赖安装
+
 * ~~目前因为网络原因无法对该项目进行在 `maven` 中央仓库的部署~~
 * 已部署到 `maven` 中央仓库
 ```xml
@@ -9,7 +12,7 @@
       <artifactId>TwTSSO</artifactId>
       <version>0.2</version>
   </dependency>
-  ```
+```
 
 ## 2、使用源码安装
 * `clone` 并使用 `idea` 打开本项目
@@ -17,7 +20,13 @@
 * 打开本项目的 `Lifecycle`
 * 双击 `install` (如果之前安装过本项目请先双击 `clean`)
 
-## 3、依赖引入以及使用
+## 3、使用 `release` 包进行安装
+
+```bash
+mvn install:install-file -Dfile=jar包的位置 -DgroupId=io.github.kaixindeken -DartifactId=TwTSSO -Dversion=0.2 -Dpackaging=jar
+```
+
+## 4、依赖引入以及使用
 * 依赖引入(注意版本号)
   ```xml
   <dependency>
