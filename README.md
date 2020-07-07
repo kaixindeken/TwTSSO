@@ -1,7 +1,15 @@
 # 天外天单点登陆`Api`（适用于`java`）
 
 ## 1、使用依赖安装
-> 目前因为网络原因无法对该项目进行在 `maven` 中央仓库的部署
+~~目前因为网络原因无法对该项目进行在 `maven` 中央仓库的部署~~
+以部署到 `maven` 中央仓库
+```xml
+  <dependency>
+      <groupId>io.github.kaixindeken</groupId>
+      <artifactId>TwTSSO</artifactId>
+      <version>0.2</version>
+  </dependency>
+  ```
 
 ## 2、使用源码安装
 * `clone` 并使用 `idea` 打开本项目
