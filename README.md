@@ -1,17 +1,18 @@
 # 适用于 `java` 的天外天单点登陆 `Api` 
 
-（安装时请注意版本）
+（安装时请注意版本号）
 
 ## 1、使用依赖安装
 
 * ~~目前因为网络原因无法对该项目进行在 `maven` 中央仓库的部署~~
-* 已部署到 `maven` 中央仓库
+* ~~已部署到 `maven` 中央仓库~~
+* 已部署到 `Github Packages`
 ```xml
-  <dependency>
-      <groupId>io.github.kaixindeken</groupId>
-      <artifactId>TwTSSO</artifactId>
-      <version>0.2</version>
-  </dependency>
+<dependency>
+  <groupId>io.github.kaixindeken.TwTSSO</groupId>
+  <artifactId>twtsso</artifactId>
+  <version>0.3</version>
+</dependency>
 ```
 
 ## 2、使用源码安装
@@ -22,17 +23,19 @@
 
 ## 3、使用 `release` 包进行安装
 
+下载 `jar` 包并执行：
+
 ```bash
-mvn install:install-file -Dfile=jar包的位置 -DgroupId=io.github.kaixindeken -DartifactId=TwTSSO -Dversion=0.2 -Dpackaging=jar
+mvn install:install-file -Dfile=jar包的位置 -DgroupId=io.github.kaixindeken.TwTSSO -DartifactId=twtsso -Dversion=0.3 -Dpackaging=jar
 ```
 
 ## 4、依赖引入以及使用
-* 依赖引入(注意版本号)
+* 依赖引入(源码安装需注意pom中定义的的依赖信息，release安装需注意自定义信息的记录)
   ```xml
   <dependency>
-      <groupId>io.github.kaixindeken</groupId>
-      <artifactId>TwTSSO</artifactId>
-      <version>0.2</version>
+    <groupId>io.github.kaixindeken.TwTSSO</groupId>
+    <artifactId>twtsso</artifactId>
+    <version>0.3</version>
   </dependency>
   ```
 * 使用说明（以 `SpringBoot` 框架为例 ）
@@ -41,7 +44,7 @@ mvn install:install-file -Dfile=jar包的位置 -DgroupId=io.github.kaixindeken 
 
   ```java
   import com.alibaba.fastjson.JSONObject;
-  import io.github.kaixindeken.TwTSSO.Api;
+  import io.github.kaixindeken.TwTSSO.twtsso.Api;
   import org.springframework.web.bind.annotation.*;
 
   import javax.servlet.http.HttpServletRequest;
