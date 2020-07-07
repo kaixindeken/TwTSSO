@@ -9,5 +9,8 @@
         <module name="TwTSSO" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="twt.sso" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
