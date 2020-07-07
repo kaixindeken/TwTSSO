@@ -1,8 +1,0 @@
-io/github/kaixindeken/TwTSSO/Api.class
-io/github/kaixindeken/TwTSSO/https/MyX509TrustManager.class
-io/github/kaixindeken/TwTSSO/standard/JSONEncoder.class
-io/github/kaixindeken/TwTSSO/standard/Hmac.class
-io/github/kaixindeken/TwTSSO/standard/HttpBuildQuery.class
-io/github/kaixindeken/TwTSSO/https/CertManager.class
-io/github/kaixindeken/TwTSSO/standard/Str.class
-io/github/kaixindeken/TwTSSO/standard/Base64Encoder.class

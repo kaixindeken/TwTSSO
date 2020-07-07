@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"Api","h":"","u":""},{"l":"Base64Encoder","h":"","u":""},{"l":"CertManager","h":"","u":""},{"l":"Hmac","h":"","u":""},{"l":"HttpBuildQuery","h":"","u":""},{"l":"JSONEncoder","h":"","u":""},{"l":"MyX509TrustManager","h":"","u":""},{"l":"Str","h":"","u":""},{"l":"所有类","h":"","u":"allclasses-index.html"}]
