@@ -43,7 +43,7 @@ mvn install:install-file -Dfile=jar包的位置 -DgroupId=io.github.kaixindeken 
 
   ```java
   import com.alibaba.fastjson.JSONObject;
-  import io.github.kaixindeken.TwTSSO.twtsso.Api;
+  import io.github.kaixindeken.TwTSSO.Api;
   import org.springframework.web.bind.annotation.*;
 
   import javax.servlet.http.HttpServletRequest;
