@@ -45,9 +45,7 @@ mvn install:install-file -Dfile=jar包的位置 -DgroupId=io.github.kaixindeken 
   import com.alibaba.fastjson.JSONObject;
   import io.github.kaixindeken.TwTSSO.Api;
   import org.springframework.web.bind.annotation.*;
-
-  import javax.servlet.http.HttpServletRequest;
-  import javax.servlet.http.HttpServletResponse;
+  import org.springframework.web.servlet.ModelAndView;
   
   @RestController
   class LoginController {
@@ -56,8 +54,8 @@ mvn install:install-file -Dfile=jar包的位置 -DgroupId=io.github.kaixindeken 
   
       //使用提供的app_id和app_key进行实例化
       public static Api getSSO(){
-          String app_key = "";
           String app_id = "";
+          String app_key = "";
           return new Api(app_id, app_key);
       }
   
@@ -67,19 +65,19 @@ mvn install:install-file -Dfile=jar包的位置 -DgroupId=io.github.kaixindeken 
       //getLoginUrl 会返回一个跳转到单点登陆页面连接的url
       @ResponseBody
       @RequestMapping(value = "/api/login", method = RequestMethod.GET)
-      public static void login(HttpServletResponse response) throws Exception {
+      public static void login() throws Exception {
           sso = getSSO();
   
           String link = "";
   
           String login_url = sso.getLoginUrl(link);
-          response.sendRedirect(login_url);
+          return new ModelAndView("redirect:"+login_url);
       }
   
       //通过fetchUserInfo获取用户信息
       @ResponseBody
       @RequestMapping(value = "/api/ssoLogin", method = RequestMethod.GET)
-      public static JSONObject ssoLogin(@RequestParam String token,HttpServletRequest request, HttpServletResponse response) throws Exception {
+      public static JSONObject ssoLogin(@RequestParam String token) throws Exception {
           return sso.fetchUserInfo(token);
       }
   }
