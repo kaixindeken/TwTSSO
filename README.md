@@ -65,7 +65,7 @@ mvn install:install-file -Dfile=jar包的位置 -DgroupId=io.github.kaixindeken 
       //getLoginUrl 会返回一个跳转到单点登陆页面连接的url
       @ResponseBody
       @RequestMapping(value = "/api/login", method = RequestMethod.GET)
-      public static void login() throws Exception {
+      public static ModelAndView login() throws Exception {
           sso = getSSO();
   
           String link = "";
